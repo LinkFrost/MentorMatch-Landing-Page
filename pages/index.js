@@ -1,5 +1,7 @@
 import Head from "next/head";
+import BasicInfo from "../components/BasicInfo.js";
 import Header from "../components/Header.js";
+import Features from "../components/Features.js";
 
 export default function Home() {
   return (
@@ -7,8 +9,10 @@ export default function Home() {
       <Head>
         <title>MentorMatch</title>
       </Head>
+      <Header></Header>
       <main className="flex flex-col justify-center">
-        <Header></Header>
+        <BasicInfo></BasicInfo>
+        <Features></Features>
       </main>
     </div>
   );
