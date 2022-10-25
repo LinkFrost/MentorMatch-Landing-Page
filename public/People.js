@@ -1,6 +1,6 @@
 export default function People({ fill, width, height }) {
   return (
-    <svg width={width} height={height} viewBox="0 0 239 239" fill={fill} xmlns="http://www.w3.org/2000/svg">
+    <svg width={width} height={height} viewBox="-10 -0 239 239" fill={fill} xmlns="http://www.w3.org/2000/svg">
       <g clipPath="url(#clip0_45_178)">
         <path
           fillRule="evenodd"
