@@ -4,7 +4,7 @@ import Image from "next/image";
 
 export default function Pricing() {
   return (
-    <div className="z-1 bg-mmYellow drop-shadow-xl w-screen flex flex-col justify-center items-center px-8 py-8">
+    <div className="bg-mmYellow drop-shadow-xl w-screen flex flex-col justify-center items-center px-8 py-8">
       <h1 className="font-bold text-4xl text-mmDarkBlue mb-6">Pricing</h1>
 
       <div className="grid grid-cols-2 gap-6">
