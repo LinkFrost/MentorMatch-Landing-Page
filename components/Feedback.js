@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Feedback() {
   return (
     <div className="bg-mmLightYellow drop-shadow-xl mb-5 w-screen flex flex-col justify-center items-center px-8 py-8">
-      <h1 className="font-bold text-4xl text-mmDarkBlue mb-6">Try MentorMatch!</h1>
+      <h1 className="font-bold text-4xl text-mmDarkBlue mb-6">Join in the spread of knowledge and education!</h1>
 
       <p className="text-lg text-mmDarkBlue max-w-4xl mb-3">If you are interested in MentorMatch, or have any other feedback to share on the idea, try out our prototype, and then fill out the form below!</p>
 
